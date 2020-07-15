@@ -1,0 +1,36 @@
+body {
+    background-color: gainsboro;
+}
+
+.navbar-brand {
+    color: white;
+    background-color: teal;
+}
+
+#aboutMe {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    color: teal;
+}
+
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: teal;
+}
+
+.card__image {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    }
+
+.card__content {
+    padding: 15px;
+}

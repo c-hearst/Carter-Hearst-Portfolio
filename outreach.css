@@ -1,0 +1,28 @@
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: teal;
+}
+
+.card__image {
+width: 100%;
+display: block;
+}
+
+.card__content {
+    padding: 15px;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.paragraph {
+    width: 160;
+    height: 160;
+}
