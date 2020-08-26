@@ -19,7 +19,9 @@ display: block;
 }
 
 body {
-    background-color: gainsboro;
+    background-image: url("smfinal.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .paragraph {

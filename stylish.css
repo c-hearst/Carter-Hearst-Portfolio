@@ -1,5 +1,7 @@
 body {
-    background-color: gainsboro;
+    background-image: url("smfinal.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .navbar-brand {
@@ -18,7 +20,7 @@ body {
     margin: 0 auto;
     max-width: 1000px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(225px, 1fr)); */
     gap: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -26,11 +28,15 @@ body {
 }
 
 .card__image {
-    width: 100%;
+    width: 25%;
     display: block;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 .card__content {
     padding: 15px;
 }
+
+
